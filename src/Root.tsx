@@ -2,6 +2,8 @@ import { Composition } from "remotion";
 import { HelloWorld, myCompSchema } from "./HelloWorld";
 import { Logo, myCompSchema2 } from "./HelloWorld/Logo";
 import { AntigravityMain } from "./Antigravity/Main";
+import { ScarletDriveMain } from "./ScarletDrive/Main";
+import { ScarletDriveMV } from "./ScarletDrive/MainMV";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -12,6 +14,22 @@ export const RemotionRoot: React.FC = () => {
         id="Antigravity"
         component={AntigravityMain}
         durationInFrames={150}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ScarletDrive"
+        component={ScarletDriveMain}
+        durationInFrames={5550}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="ScarletDriveMV"
+        component={ScarletDriveMV}
+        durationInFrames={5550}
         fps={30}
         width={1920}
         height={1080}
