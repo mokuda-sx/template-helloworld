@@ -17,7 +17,7 @@ export const getBeatIntensity = (
     if (sampleIndex >= samples.length || sampleIndex < 0) return 0;
 
     // Average intensity around the current sample
-    const windowSize = 512;
+    const windowSize = 128; // Reduced from 512
     let sum = 0;
     let count = 0;
     for (let i = 0; i < windowSize; i++) {

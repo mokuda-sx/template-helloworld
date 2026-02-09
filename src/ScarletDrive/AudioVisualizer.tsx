@@ -3,7 +3,7 @@ import { interpolate, useCurrentFrame } from 'remotion';
 
 export const AudioVisualizer: React.FC = () => {
     const frame = useCurrentFrame();
-    const bars = 40;
+    const bars = 20;
 
     return (
         <div style={{

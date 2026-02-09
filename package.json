@@ -16,8 +16,10 @@
     "@remotion/three": "^4.0.419",
     "@remotion/zod-types": "^4.0.0",
     "@types/three": "^0.182.0",
+    "p5": "^2.2.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "react-p5": "^1.4.1",
     "remotion": "^4.0.0",
     "three": "^0.182.0",
     "zod": "3.22.3"
